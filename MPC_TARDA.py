@@ -134,7 +134,7 @@ if problem.status in ['optimal', 'optimal_inaccurate']:
     fig_col, map_col = st.columns([2, 1])
 
     with fig_col:
-        st.markdown("#### Hydrograph: Predicted vs. Controlled")
+        st.markdown("#### Hydrograph")
         fig, ax1 = plt.subplots(figsize=(10, 5))
 
         ax1.plot(days, inflow_forecast, label="Predicted Dam Inflow", linestyle='--', color='blue', alpha=0.6)

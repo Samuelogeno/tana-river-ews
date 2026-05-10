@@ -13,9 +13,9 @@ st.markdown("Integrated Model Predictive Control with automated downstream routi
 
 # --- Sidebar Controls ---
 with st.sidebar:
-    st.header("🌤️ Weather Simulation")
+    st.header("🌤️ Weather Forecast (from KMD)")
     weather_condition = st.selectbox(
-        "Select Catchment Weather Scenario",
+        "_Data From KMD_",
         ["Very Sunny (Drought)", "Sunny (Normal)", "Rainy (Heavy Showers)", "Very Rainy (Storm Surge)"],
         index=3  # Default to the storm scenario to show the EWS in action
     )

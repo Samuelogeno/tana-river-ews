@@ -2,6 +2,6 @@ streamlit
 numpy
 pandas
 cvxpy
-matplotlib
 folium
 streamlit-folium
+plotly
